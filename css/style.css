@@ -1,56 +1,97 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Oswald", "sans-serif";
+body{
+    background-color: #BF9E75;
+} 
+#container{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, sans-serif;
+    
 }
-
-nav ul {
-    list-style: none;
-    background-color: #4a4a4f;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+#subject{
+    color:khaki;
+    font-family: Helvetica, sans-serif;
+    font-size:40px;
+    background-image: url("https://assets/backdrop.webp");
+    text-align:center;
+    font-weight:bold;
 }
-
-nav li {
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin: 2.5%;
-
+#navbar {
+    padding:1%;
+    background-color:#BF9E75;
 }
-
-nav a {
-    text-decoration: none;
-    color: #ffff;
+.navbutton{
+    float:left;
+    width:19.5%;
+    margin:2%;
+}
+.navbutton a {
     display: block;
-    border-radius: 10px;
+    border-radius: 3px;
+    background-color:#A68F7B;
+	color:#fff;
+	text-align:center;
+	padding-top:4px;
+    padding-bottom:4px;
+    text-decoration:none;
+}
+.navbutton a:hover{ 
+    color:#A68f76; 
+	background-color:#fff;
 }
 
-nav a:hover {
-    background-color: #ffff;
-    color: #4a4a4f;
+#main{
+    padding: 2%;
 }
 
-.card {
-    float: left;
-    width: 15%;
-    margin-left: 15%;
-}
-
-.card a {
+.mainbox{
+    width:100% ;   
+    background-color: #A68F7B; 
     text-align: center;
+    line-height: 1.5em;
+    color:#333;
+    font-family: cursive;
+    font-size: 20px;
+}
+.mainbox a{
+    padding:4%;
+	display:block;
+	text-align:center; 
+	text-decoration:none;
+    color:rgb(223, 224, 208);
+    font-size: 22px;
+}
+.mainbox img{
+    width: 50%;
+    height: auto;
+}
+.mainbox a:hover {    
+    color:#f2ddb6; 
 }
 
-img {
-    width: 100%;
-    /* note that  this is a relative width. It's relative to the width of the container that it's in. Our card - the container - is 20% of the screen
-    width, so our image will be 100% of that width not 100% of the width of the screen */
-    height: 180px;
-    /* necessarily need to do this, but it will keep them all the same height even though it might make some of them look a bit squished */
+.heading{
+font-family:  Helvetica;
+font-size: 32px;
+color:white;
+padding-top: 4%;
+padding-bottom: 4%;
 }
 
-h1 {
-    text-align: center;
+#section1{
+    background-color:#f2ddb6;
+    
+}
+
+strong{
+    color:blue;
+    font-family: Helvetica;
+    font-family: cursive;
+}
+
+#section2{
+    background-color:	#FFDEAD ;
+}
+
+#section3{
+    background-color:#FFE4C4 ;
 }
